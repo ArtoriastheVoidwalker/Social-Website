@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'social_django',
     'django_extensions',
+    'images.apps.ImagesConfig',
+    'easy_thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -135,5 +137,5 @@ AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
     'social_core.backends.google.GoogleOAuth2',
 ]
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '783774476454-8d99aj54rql8tbmdv46kh1feb0td1lgg.apps.googleusercontent.com' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'A7--0-blPke6azFrcZToZkbE' # Google Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '783774476454-8d99aj54rql8tbmdv46kh1feb0td1lgg.apps.googleusercontent.com'  # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'A7--0-blPke6azFrcZToZkbE'  # Google Consumer Secret
